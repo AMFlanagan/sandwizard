@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Tabs } from '../config/router.js';
+import NavigationContainer from "./js/components/container/NavigationContainer";
+import Main from "./js/components/container/Main";
 
 class App extends Component {
   constructor() {
@@ -8,7 +9,10 @@ class App extends Component {
 
   render() {
     return (
-      <Tabs />
+      <div>
+        <Main/>
+        <NavigationContainer/>
+      </div>
     );
   }
 }

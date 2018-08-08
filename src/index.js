@@ -1,4 +1,13 @@
 import App from "./App";
+import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from "react-dom";
+import React from "react";
 
-const wrapper = document.getElementById("app");
-wrapper ? ReactDOM.render(<App />, wrapper) : false;
+
+console.log(document.getElementById("app"));
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById("app")
+);
