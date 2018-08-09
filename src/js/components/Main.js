@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import HomeContainer from "./HomeContainer";
-import BuildContainer from "./BuildContainer";
+import Home from "./Home";
+import Build from "./Build";
 import { Switch, Route } from 'react-router-dom';
 
 class Main extends Component {
@@ -12,8 +12,8 @@ class Main extends Component {
         return (
             <main>
                 <Switch>
-                    <Route exact path='/' component={HomeContainer} />
-                    <Route path='/build' component={BuildContainer} />
+                    <Route exact path='/' component={Home} />
+                    <Route path='/build' component={Build} />
                     {/* <Route path='/schedule' component={Schedule} /> */}
                 </Switch>
             </main>

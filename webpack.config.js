@@ -1,5 +1,4 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   module: {
@@ -22,15 +21,13 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          {
-            loaders: ['style-loader', 'css-loader']
-          }
+          { loader: "style-loader" },
+          { loader: "css-loader" }
         ]
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin('./src/styles/style.css'),
     new HtmlWebPackPlugin({
       template: './src/index.html',
       filename: './index.html'

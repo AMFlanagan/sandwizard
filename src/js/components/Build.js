@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class BuildContainer extends Component {
+class Build extends Component {
   constructor() {
     super();
   }
@@ -12,4 +12,4 @@ class BuildContainer extends Component {
   }
 }
 
-export default BuildContainer;
+export default Build;

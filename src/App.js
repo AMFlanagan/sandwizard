@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import NavigationContainer from "./js/components/container/NavigationContainer";
-import Main from "./js/components/container/Main";
+import NavBar from "./js/components/NavBar";
+import Main from "./js/components/Main";
 
 class App extends Component {
   constructor() {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <Main/>
-        <NavigationContainer/>
+        <NavBar/>
       </div>
     );
   }
