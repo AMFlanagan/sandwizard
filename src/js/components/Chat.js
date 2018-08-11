@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-class Build extends Component {
+class Chat extends Component {
   constructor() {
     super();
   }
 
   render() {
     return (
-      <h1>Surf</h1>
+      <h1>Chat</h1>
     );
   }
 }
 
-export default Build;
+export default Chat;

@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-class Build extends Component {
+class Settings extends Component {
   constructor() {
     super();
   }
 
   render() {
     return (
-      <h1>Surf</h1>
+      <h1>Settings</h1>
     );
   }
 }
 
-export default Build;
+export default Settings;

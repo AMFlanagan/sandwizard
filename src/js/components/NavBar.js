@@ -18,13 +18,29 @@ class NavBar extends Component {
     render() {
         return (
             <div className={'navbar ' + this.state.selected_page}>
-                <div className='list-item' onClick={this.handleChange}><Link className='link' to='/' id='home'><img src='/assets/homeIcon.png'/></Link></div>
-                <div className='list-item' onClick={this.handleChange}><Link className='link' to='/build' id='build'><h1><img src='/assets/buildIcon.png'/></h1></Link></div>
+            <div className='list-item'>
+                <Link className='link' to='/' onClick={this.handleChange}>
+                    {this.state.selected_page == 'home' ? <img  id='home' src='/assets/icons/active/home.png'/> : <img  id='home' src='/assets/icons/inactive/home.png'/>}
+                </Link>
             </div>
+            <div className='list-item'>
+                <Link className='link' to='/surf' onClick={this.handleChange}>
+                    {this.state.selected_page == 'surf' ? <img id='surf' src='/assets/icons/active/surf.png'/> : <img id='surf' src='/assets/icons/inactive/surf.png'/>}
+                </Link>
+            </div>
+            <div className='list-item'>
+                <Link className='link' to='/chat' onClick={this.handleChange}>
+                    {this.state.selected_page == 'chat' ? <img id='chat' src='/assets/icons/active/chat.png'/> : <img id='chat' src='/assets/icons/inactive/chat.png'/>}
+                </Link>
+            </div>
+            <div className='list-item'>
+                <Link className='link' to='/settings' onClick={this.handleChange}>
+                    {this.state.selected_page == 'settings' ? <img id='settings' src='/assets/icons/active/settings.png'/> : <img id='settings' src='/assets/icons/inactive/settings.png'/>}
+                </Link>
+            </div>
+        </div>
         );
     }
 }
-// {/* <Link to='/build' id='build'><img src='/assets/buildIcon.png'></img></Link> */}
-// {/* <img src='/assets/homeIcon.png'/> */}
 
 export default NavBar;
