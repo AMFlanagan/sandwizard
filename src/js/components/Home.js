@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import styles from './Home';
 
 class Home extends Component {
   constructor() {
@@ -7,7 +8,84 @@ class Home extends Component {
 
   render() {
     return (
-      <h1>Home</h1>
+      <div>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+        <h1>Helloooooo</h1>
+      </div>
     );
   }
 }

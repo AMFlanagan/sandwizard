@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import Home from "./Home";
-import Build from "./Build";
-import Settings from "./Settings";
-import Chat from "./Chat";
+import React, { Component } from 'react';
+import Home from './Home';
+import Build from './Build';
+import Settings from './Settings';
+import Chat from './Chat';
 import { Switch, Route } from 'react-router-dom';
 import styles from './Main.css';
 
